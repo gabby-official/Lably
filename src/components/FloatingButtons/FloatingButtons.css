@@ -1,0 +1,69 @@
+.map-floating-btn{
+
+    position:absolute;
+
+    top:clamp(1rem,3vw,1.8rem);
+
+    width:56px;
+
+    aspect-ratio:1;
+
+    border:none;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:
+    transform var(--transition),
+    box-shadow var(--transition);
+
+    z-index:1200;
+
+}
+
+
+
+.map-floating-btn:hover{
+
+    transform:scale(1.08);
+
+}
+
+
+
+.map-back-btn{
+
+    left:clamp(1rem,3vw,3rem);
+
+    background:transparent;
+
+}
+
+
+
+.map-logo-btn{
+
+    right:clamp(1rem,3vw,2rem);
+
+    background:transparent;
+
+}
+
+
+
+@media(min-width:1800px){
+
+.map-floating-btn{
+
+width:70px;
+
+}
+
+}

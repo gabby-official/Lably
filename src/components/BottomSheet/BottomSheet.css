@@ -1,0 +1,53 @@
+.map-bottom-sheet{
+
+    position:absolute;
+
+    left:0;
+
+    bottom:0;
+
+    width:100%;
+
+    min-height:180px;
+
+    background:var(--surface);
+
+    border-radius:32px 32px 0 0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:2rem;
+
+    box-shadow:0 -5px 25px rgba(0,0,0,.12);
+
+    z-index:1000;
+
+}
+
+
+
+.map-location-btn{
+
+    width:min(90%,400px);
+
+    gap:.8rem;
+
+}
+
+
+
+@media(max-width:576px){
+
+.map-bottom-sheet{
+
+min-height:150px;
+
+padding:1.5rem;
+
+}
+
+}
